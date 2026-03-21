@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhijith Surendran | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="admin-banner" style="display: none;">
+        <span>Admin Mode Active - You can now edit the text directly on the page</span>
+        <div>
+            <button id="save-btn" class="admin-btn">Save Changes</button>
+            <button id="cancel-btn" class="admin-btn" style="background: transparent; color: #fff; border: 1px solid #fff;">Cancel Edit</button>
+        </div>
+    </div>
+
+    <nav>
+        <div class="logo">AS.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a id="nav-resume-link" href="#" target="_blank" download="Abhijith_Resume">Resume</a></li>
+        </ul>
+        <button id="admin-login-btn" class="icon-btn" title="Admin Access">
+            <i class="fa-solid fa-lock"></i>
+        </button>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section glass">
+            <div class="hero-content">
+                <h1 id="hero-name" class="editable" data-key="hero.name">Abhijith Surendran</h1>
+                <h2 id="hero-title" class="editable" data-key="hero.title">QC Team Lead</h2>
+                <h3 id="hero-company" class="editable" data-key="hero.company">Numerator India Private Limited</h3>
+                <p id="hero-subtitle" class="editable" data-key="hero.subtitle">Ensuring quality and precision in every project.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn primary">Contact Me</a>
+                    <a href="#experience" class="btn secondary">View Work</a>
+                    <a id="resume-btn" href="#" target="_blank" class="btn secondary" download="Abhijith_Resume"><i class="fa-solid fa-file-pdf"></i> Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass about-content-wrapper" style="padding: 2rem; border-radius: 12px; font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                <div class="about-image-container">
+                    <img id="about-avatar" src="https://api.dicebear.com/7.x/initials/svg?seed=Abhijith+Surendran&backgroundColor=2563eb&textColor=ffffff" alt="Abhijith">
+                </div>
+                <div class="about-text-container">
+                    <p id="about-text" class="editable" data-key="about.text">Enter about me text here.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Work Experience</h2>
+            <div id="experience-list" class="timeline"></div>
+            <button id="add-experience-btn" class="admin-only add-btn" style="display: none;">+ Add Experience</button>
+        </section>
+
+        <!-- Academics Section -->
+        <section id="academics" class="section">
+            <h2 class="section-title">Academics</h2>
+            <div id="academics-list" class="grid-layout"></div>
+            <button id="add-academic-btn" class="admin-only add-btn" style="display: none;">+ Add Academic Entry</button>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div id="skills-list" class="chip-container"></div>
+            <button id="add-skill-btn" class="admin-only add-btn" style="display: none;">+ Add Skill</button>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section glass">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span id="contact-email" class="editable" data-key="contact.email">abhi.suru@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span id="contact-phone" class="editable" data-key="contact.phone">+91 Enter Phone Number</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span id="contact-address" class="editable" data-key="contact.address">Enter Your Location</span>
+                </div>
+                <!-- Since social links are anchor tags, modifying their HREF requires special handling in admin mode. I'll provide editable texts for their URLs -->
+                <div id="social-admin-inputs" class="admin-only" style="display: none; margin-top: 2rem;">
+                    <h4>Uploads & Links</h4>
+                    <div style="margin-bottom: 0.5rem;"><i class="fa-solid fa-image"></i> Upload Profile Picture: <input type="file" id="upload-avatar-input" accept="image/*" style="display:inline; width:auto; border:none; padding:0; background:none;"></div>
+                    <div style="margin-bottom: 0.5rem;"><i class="fa-solid fa-file-pdf"></i> Upload Resume (PDF): <input type="file" id="upload-resume-input" accept=".pdf,.doc,.docx" style="display:inline; width:auto; border:none; padding:0; background:none;"></div>
+                    <div style="margin-bottom: 0.5rem;"><i class="fa-brands fa-linkedin"></i> LinkedIn: <span class="editable" data-key="contact.linkedin"></span></div>
+                    <div style="margin-bottom: 0.5rem;"><i class="fa-brands fa-facebook"></i> Facebook: <span class="editable" data-key="contact.facebook"></span></div>
+                    <div style="margin-bottom: 0.5rem;"><i class="fa-brands fa-instagram"></i> Instagram: <span class="editable" data-key="contact.instagram"></span></div>
+                </div>
+                <div class="social-links" id="social-links-display">
+                    <a id="link-linkedin" href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a id="link-facebook" href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a id="link-instagram" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Passcode Modal -->
+    <div id="passcode-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <h2 style="color:white; margin-bottom:1rem;">Admin Access</h2>
+            <p style="color:#aaa; font-size: 0.9rem; margin-bottom: 1rem;">Enter passcode to enable Edit Mode.</p>
+            <input type="password" id="passcode-input" placeholder="Enter Passcode">
+            <p id="passcode-error" style="color: #ef4444; font-size: 0.85rem; margin-top:0.5rem; display:none;">Incorrect Passcode</p>
+            <button id="submit-passcode" class="btn primary" style="width: 100%; margin-top: 1rem;">Unlock</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
