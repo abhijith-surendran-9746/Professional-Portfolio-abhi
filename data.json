@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "name": "Abhijith Surendran",
+    "title": "QC Team Lead",
+    "company": "Numerator India Private Limited",
+    "subtitle": "Ensuring quality and excellence across all deliverables.",
+    "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Abhijith+Surendran&backgroundColor=2563eb&textColor=ffffff"
+  },
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "Numerator India Private Limited",
+      "role": "QC Team Lead",
+      "duration": "Present",
+      "description": "Leading the Quality Control team, establishing robust quality assurance processes, and ensuring optimal output standards."
+    }
+  ],
+  "academics": [
+    {
+      "id": "1",
+      "institution": "Enter University/College Name",
+      "degree": "Enter Degree",
+      "year": "Enter Year"
+    }
+  ],
+  "skills": [
+    "Quality Control",
+    "Team Leadership",
+    "Process Optimization",
+    "Attention to Detail",
+    "Communication"
+  ],
+  "contact": {
+    "email": "abhi.suru@gmail.com",
+    "instagram": "",
+    "facebook": "",
+    "linkedin": ""
+  }
+}
