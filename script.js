@@ -5,7 +5,7 @@ const defaultData = {
         title: "Senior QC Data Analyst",
         company: "Numerator India Private Limited",
         subtitle: "Ensuring quality and precision in every project.",
-        avatar: "https://api.dicebear.com/7.x/initials/svg?seed=Abhijith+Surendran&backgroundColor=2563eb&textColor=ffffff"
+        avatar: "https://www.filesharing.com/download/KAHmaW37ePNQ1JTJiukI"
     },
     about: {
         text: "I am a dedicated Senior Data Analyst at Numerator India Private Limited, where I specialize in ensuring the highest standards of data integrity and project deliverables. With a keen eye for detail and a passion for optimizing processes, I strive to drive excellence across all cross-functional teams. Outside of work, I am constantly exploring new methodologies to improve efficiency and maintain top-tier performance."
