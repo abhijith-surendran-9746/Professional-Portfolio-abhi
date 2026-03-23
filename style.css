@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #1e3b2b;
+    --bg-color: #6b6ea7;
     --text-primary: #f8fafc;
     --text-secondary: #a7f3d0;
     --accent-color: #d4af37;
@@ -134,9 +134,11 @@ main {
     gap: 3rem;
     align-items: center;
 }
+
 .about-text-container {
     flex: 1;
 }
+
 .about-image-container {
     width: 250px;
     height: 250px;
@@ -145,8 +147,9 @@ main {
     border-radius: 50%;
     overflow: hidden;
     border: 4px solid var(--glass-border);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
 .about-image-container img {
     width: 100%;
     height: 100%;
@@ -247,8 +250,15 @@ main {
 }
 
 @keyframes pulse {
-    0% { transform: scale(0.9); opacity: 0.7; }
-    100% { transform: scale(1.1); opacity: 1; }
+    0% {
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
 }
 
 /* Timeline (Experience) */
@@ -330,6 +340,7 @@ main {
     font-weight: 500;
     transition: all 0.2s;
 }
+
 .chip:hover {
     background: var(--text-secondary);
     color: var(--bg-color);
@@ -375,21 +386,24 @@ main {
 
 .editable.editing {
     border-color: var(--accent-color);
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     outline: none;
     cursor: text;
 }
 
 [contenteditable="true"]:focus {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Modal */
 .modal {
     display: none;
     position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     justify-content: center;
     align-items: center;
@@ -401,25 +415,29 @@ main {
     max-width: 400px;
     text-align: center;
     position: relative;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .close-modal {
     position: absolute;
-    top: 15px; right: 20px;
+    top: 15px;
+    right: 20px;
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--text-secondary);
 }
 
-.close-modal:hover { color: #fff; }
+.close-modal:hover {
+    color: #fff;
+}
 
-input[type="password"], input[type="text"] {
+input[type="password"],
+input[type="text"] {
     width: 100%;
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid var(--glass-border);
-    background: rgba(0,0,0,0.3);
+    background: rgba(0, 0, 0, 0.3);
     color: #fff;
     outline: none;
     font-size: 1rem;
@@ -433,7 +451,9 @@ input[type="password"]:focus {
 /* Admin Elements */
 #admin-banner {
     position: fixed;
-    top: 0; left: 0; width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
     background: var(--accent-color);
     color: #fff;
     z-index: 200;
@@ -442,8 +462,8 @@ input[type="password"]:focus {
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    border-bottom: 2px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .admin-btn {
@@ -467,16 +487,16 @@ input[type="password"]:focus {
     display: inline-block;
     margin-top: 1.5rem;
     padding: 0.5rem 1rem;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     color: #fff;
-    border: 1px dashed rgba(255,255,255,0.3);
+    border: 1px dashed rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
 }
 
 .add-btn:hover {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
     border-color: #fff;
 }
 
@@ -500,13 +520,16 @@ input[type="password"]:focus {
         text-align: center;
         padding: 2rem;
     }
+
     .about-content-wrapper {
         flex-direction: column;
         text-align: center;
     }
+
     .hero-actions {
         justify-content: center;
     }
+
     .nav-links {
         display: none;
     }

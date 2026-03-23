@@ -1,7 +1,7 @@
 {
   "hero": {
     "name": "Abhijith Surendran",
-    "title": "Senior Data Analyst",
+    "title": "Senior QC Data Analyst",
     "company": "Numerator India Private Limited",
     "subtitle": "Ensuring quality and excellence across all deliverables.",
     "avatar": "https://api.dicebear.com/7.x/initials/svg?seed=Abhijith+Surendran&backgroundColor=2563eb&textColor=ffffff"
@@ -9,29 +9,75 @@
   "workExperience": [
     {
       "id": "1",
-      "company": "Numerator India Private Limited",
-      "role": "QC Team Lead",
-      "duration": "Present",
-      "description": "Leading the Quality Control team, establishing robust quality assurance processes, and ensuring optimal output standards."
+      "company": "Numerator India Private Limited - Vadodara, Gujarat",
+      "role": "Senior QC Data Analyst",
+      "duration": "June 2021 - Present",
+      "description": "Handle quality checks, Data validation and analysis, conduct trainings and meetings, maintain process documentation, fulfil SME/QC/Trainer responsibilities, and support Team lead duties when required."
+    },
+    {
+      "id": "2",
+      "company": "Numerator India Private Limited - Vadodara, Gujarat",
+      "role": "Data Classification Associate",
+      "duration": "September 2020 - June 2021",
+      "description": "Performed coding of FMCG products for US and Canadian markets on the Numerator platform, classifying items by retailer, usage, store location, price, and consumption."
+    },
+    {
+      "id": "3",
+      "company": "FLYdocs India Private Limited - Lufthansa Technic AG - Vadodara, Gujarat",
+      "role": "Technical Records Engineer",
+      "duration": "August 2017 - June 2020",
+      "description": "Reviewed and migrated aircraft documents to the FLYdocs platform, performed large-scale data analysis and compliance audits of maintenance records, managed engine and component documentation, resolved discrepancies with clients, supported aircraft acquisition and lease processes, and utilized multiple aviation audit and records management systems."
+    },
+    {
+      "id": "4",
+      "company": "Antonio Academy Cochin, Kerala.",
+      "role": "IELTS Trainer",
+      "duration": "February 2014 - September 2014",
+      "description": "Delivered basic language and accent training along with interpersonal skills development sessions."
     }
   ],
   "academics": [
     {
       "id": "1",
-      "institution": "Enter University/College Name",
-      "degree": "Enter Degree",
-      "year": "Enter Year"
+      "institution": "University of South Wales, Wales, United Kingdom",
+      "degree": "M.Sc. Aeronautical Engineering",
+      "year": "2016"
+    },
+    {
+      "id": "2",
+      "institution": "Jawaharlal Collage of Engineering & Technology, Kerala, India",
+      "degree": "B.Tech Aeronautical Engineering",
+      "year": "2013"
     }
   ],
   "skills": [
-    "Quality Control",
-    "Team Leadership",
-    "Process Optimization",
-    "Attention to Detail",
-    "Communication"
+    "CATIA",
+    "ANSYS",
+    "SolidWorks",
+    "Google Antigravity",
+    "PowerBI",
+    "Kali Linux",
+    "Nmap",
+    "Metasploit",
+    "TRAX",
+    "STREAM",
+    "AMOS",
+    "AIRVAULT",
+    "GOASPEN",
+    "MS Office",
+    "Google - Sheets, Slides, Docs",
+    "Technical Records & Manuals",
+    "Communication",
+    "Training & Mentoring",
+    "Team Player",
+    "Fast Learner",
+    "Professional",
+    "Polyglot"
   ],
   "contact": {
     "email": "abhi.suru@gmail.com",
+    "Phone": "+91 81284 86855",
+    "Address": "Ernakulam, Kerala, India",
     "instagram": "",
     "facebook": "",
     "linkedin": ""
