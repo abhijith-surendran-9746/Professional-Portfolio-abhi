@@ -1,11 +1,11 @@
 :root {
-    --bg-color: #6b6ea7;
-    --text-primary: #f8fafc;
+    --bg-color: #87b6bc;
+    --text-primary: #00050a;
     --text-secondary: #a7f3d0;
-    --accent-color: #d4af37;
+    --accent-color: #f6f09f;
     --accent-glow: rgba(212, 175, 55, 0.4);
     --glass-bg: rgba(167, 243, 208, 0.05);
-    --glass-border: rgba(212, 175, 55, 0.25);
+    --glass-border: rgba(23, 18, 1, 0.25);
 }
 
 * {
